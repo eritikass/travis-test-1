@@ -7,3 +7,11 @@ Object {
   "x": "ertyuiop",
 }
 `;
+
+exports[`snapshot 2`] = `"aaa"`;
+
+exports[`snapshot 3`] = `
+Object {
+  "a": "dfjfdjsdjsdfj",
+}
+`;
