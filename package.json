@@ -1,8 +1,8 @@
 {
   "name": "test2-tpt",
   "scripts": {
-    "test": "jest --verbose",
-    "test-watch": "jest --verbose --watchAll"
+    "test": "jest",
+    "test-watch": "jest --watchAll"
   },
   "devDependencies": {
     "eslint": "^5.6.0",
