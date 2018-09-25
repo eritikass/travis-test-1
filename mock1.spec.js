@@ -7,7 +7,7 @@ function forEach(items, callback) {
 it('test forEach', () => {
     const mockCallback = jest.fn(x => 42 + x);
 
-    forEach([0, 1], mockCallback);
+    forEach([0, 1, 5], mockCallback);
 
     // The mock function is called twice
     expect(mockCallback.mock.calls.length).toBe(2);
