@@ -4,5 +4,6 @@ exports[`snapshot 1`] = `
 Object {
   "a": 12345,
   "b": "kala",
+  "x": "ertyuiop",
 }
 `;
