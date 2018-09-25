@@ -3,7 +3,9 @@ const axios = require('axios');
 
 class Users {
   static all() {
-    return axios.get('/users.json').then(resp => resp.data);
+    const r = axios.get('/users.json');
+    console.log('r', r);
+    return r.then(resp => resp.data);
   }
 }
 

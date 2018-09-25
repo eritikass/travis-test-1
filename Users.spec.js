@@ -5,7 +5,7 @@ jest.mock('axios');
 
 test('should fetch users', () => {
   const resp = {data: [{name: 'Bob'}]};
-  axios.get.mockResolvedValue(resp);
+  axios.get.mockReturnValue(new Promise(r => r(resp)));
 
   // or you could use the following depending on your use case:
   // axios.get.mockImplementation(() => Promise.resolve(resp))
