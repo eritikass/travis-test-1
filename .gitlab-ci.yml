@@ -1,0 +1,7 @@
+# https://docs.gitlab.com/ce/ci/yaml/
+
+test:
+  image: node:8
+  script:
+    - npm install
+    - npm run test
